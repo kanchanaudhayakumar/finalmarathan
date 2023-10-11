@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-11T19:56:59 IST" name="Default suite" finished-at="2023-10-11T19:57:11 IST" duration-ms="12026">
+    <groups>
+    </groups>
+    <test started-at="2023-10-11T19:56:59 IST" name="Default test" finished-at="2023-10-11T19:57:11 IST" duration-ms="12026">
+      <class name="testcas.CityTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcas.CityTest@3e27aa33]" started-at="2023-10-11T19:56:59 IST" name="setup" finished-at="2023-10-11T19:56:59 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:testcas.CityTest@3e27aa33]" started-at="2023-10-11T19:57:00 IST" name="lauchBrowser" finished-at="2023-10-11T19:57:07 IST" duration-ms="6527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method signature="runEasyTicket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcas.CityTest@3e27aa33]" started-at="2023-10-11T19:57:07 IST" name="runEasyTicket" data-provider="fetchData" finished-at="2023-10-11T19:57:11 IST" duration-ms="4597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567891234560]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[022026]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[335]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kanchana]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kanchanaitech@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9789472251]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEasyTicket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcas.CityTest@3e27aa33]" started-at="2023-10-11T19:57:11 IST" name="tearDown" finished-at="2023-10-11T19:57:11 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcas.CityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
